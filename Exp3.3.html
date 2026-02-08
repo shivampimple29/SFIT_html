@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head><title>Animation</title>
+<style>
+div {
+width: 200px;
+height: 300px;
+background-color:white;
+position: relative;
+text-align:center;
+animation-name: example;
+animation-duration: 5s;
+color:white;
+}
+@keyframes example {
+0% {background-color:black; left: 0px; top:0px;}
+25% {background-color:red; left: 400px; top:0px;}
+50% {background-color: green; left: 400px; top:400px;}
+75% {background-color: blue; left: 0px; top:400px;}
+100% {background-color:white; left: 0px; top:0px;color:black;}
+}
+</style>
+</head>
+<body>
+<div>Animation</div>
+</body>
+ </html>

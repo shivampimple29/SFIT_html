@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Q7.C</title>
+<style>
+body {
+width: 100vw;
+height: 100vh;
+background:  url('https://images3.alphacoders.com/767/767468.jpg');
+background-size: cover;
+overflow: hidden;
+}
+.container {
+width: 100%;
+height: 100%;
+justify-items:center;
+}
+.space {
+width: 100px;
+height: 150px;
+}
+.cards {
+width: 300px;
+height: 350px;
+transition: all 1s ease;
+border-radius: 15px;
+box-shadow: 8px 8px 8px 8px ;
+}
+img{
+position:absolute;
+top:-16px;
+width:100%;
+height:100%;
+}
+p{
+width: 300px;
+height: 350px;
+position: absolute;
+transition: all 0.2s ease;
+}
+#back {
+transform: rotateY(90deg);
+transition: all 0.5s ease;
+}
+.cards:hover {
+transform: rotateY(180deg);
+}
+.cards:hover #front {
+transform: rotateY(90deg);
+}
+.cards:hover #back {
+transform: rotateY(180deg);
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="space"></div>
+<div class="cards">
+<p id="back">
+<img src="https://static.wikia.nocookie.net/xianb/images/7/78/WTP_EP104.png/revision/latest?cb=20161229212207" alt=img2>
+</p>
+<p id="front">
+<img src="https://i.redd.it/whos-that-pokemon-its-charizard-v0-ovw7glsr22w81.jpg?width=708&format=pjpg&auto=webp&s515bbc8917facc7cefbed09c32643bfb92ff2294" alt=img1>
+</p>
+</div>
+</div>
+</body>
+</html>

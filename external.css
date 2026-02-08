@@ -1,0 +1,16 @@
+body{
+	background-color:#1e1b40;
+	font-family:sans-serif,arial;
+	color:white;
+}
+img{
+	border:3px solid white;
+	margin:20px 0;
+	padding:20px solid black;
+}
+h1{
+	text-align:center;
+}
+p{
+	align:center;
+}

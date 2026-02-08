@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Twinkle TWinkle Little Star</title>
+<style>
+body{
+	background-color:black;
+	margin:0;
+}
+.star{
+	position:absolute;
+	width:50px;
+	height:50px;
+	background:url('star.jpeg') no-repeat center/contain;
+	animation:starmove 5s linear infinite;
+}
+
+@keyframes starmove{
+0%{
+	top:0;
+	left:0;
+	transform:scale(1);
+	filter:hue-rotate(0deg);
+}
+100%{
+	top:90%;
+	left:90%;
+	transform:scale(1.2);
+	filter:hue-rotate(360deg);
+}		
+}
+
+
+
+</style>
+</head>
+<body>
+<div class="star"></div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>transition</title>
+<style>
+
+body{
+    background-color: skyblue;
+}
+div {
+margin:10px;
+width: 100px;
+height: 100px;
+background-color:orange;
+color:#1E1B40;
+justify-content:center;
+align-items:center;
+text-align:center;
+display:flex;
+
+transition: width 5s;
+}
+#div1{transition-timing-function: linear;}
+#div2{transition-timing-function: ease;}
+#div3{transition-timing-function: ease-in;}
+#div4{transition-timing-function: ease-out;}
+#div5{transition-timing-function: ease-in-out;}
+
+div:hover {
+width: 1000px;
+}
+</style>
+</head>
+<body>
+<h1>The transition timing function Property</h1>
+<p>Hover over the div element below, to see the different speed curves:</p>
+<div id="#div1">linear
+</div>
+<div id="#div2">ease
+</div>
+<div id="#div3">ease-in
+</div>
+<div id="#div4">ease-out
+</div>
+<div id="#div5">ease-in-out
+</div>
+</body>
+</html>

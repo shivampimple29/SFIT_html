@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shivam Pimple - Resume</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #2d3436;
+    }
+
+    header, section {
+      padding: 40px 60px;
+    }
+
+    .header {
+      text-align: center;
+      background-color: #fff;
+      padding-top: 50px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .profile-pic {
+      margin: 0 auto 15px;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+
+    .profile-pic img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin: 10px 0 5px;
+    }
+
+    p.subtitle {
+      font-size: 1.1rem;
+      color: #636e72;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      border-bottom: 2px solid #0984e3;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+    }
+
+    .card-grid {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .social-card, .project-card {
+      background-color: #ffffff;
+      border-radius: 12px;
+      padding: 20px;
+      width: 30%;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .social-card:hover, .project-card:hover {
+      transform: scale(1.03);
+    }
+
+    .social-card img, .project-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .social-card a, .project-card a {
+      color: #0984e3;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .skills span {
+      display: inline-block;
+      background-color: #dfe6e9;
+      color: #2d3436;
+      padding: 6px 12px;
+      margin: 5px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    @media (max-width: 800px) {
+      .card-grid {
+        flex-direction: column;
+        align-items: center;
+      }
+      .social-card, .project-card {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="profile-pic">
+      <img src="profilepic.jpeg" alt="Shivam Pimple" />
+    </div>
+    <h1>Shivam S. Pimple</h1>
+    <p class="subtitle">Aspiring Web Developer | Tech Enthusiast | Creative Problem Solver</p>
+  </header>
+
+  <section>
+    <h2>Social Media</h2>
+    <div class="card-grid">
+      <div class="social-card">
+        <img src="https://static.vecteezy.com/system/resources/previews/013/948/544/non_2x/gmail-logo-on-transparent-white-background-free-vector.jpg" alt="Email" />
+        <p><a href="mailto:shivampimple29@gmail.com">Email</a></p>
+      </div>
+      <div class="social-card">
+        <img src="https://img.icons8.com/ios-filled/50/github.png" alt="GitHub" />
+        <p><a href="https://github.com/Shivam18573" target="_blank">GitHub</a></p>
+      </div>
+      <div class="social-card">
+        <img src="https://img.icons8.com/color/48/linkedin.png" alt="LinkedIn" />
+        <p><a href="https://www.linkedin.com/in/shivam-pimple-894201316" target="_blank">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Objective</h2>
+    <p>To contribute my technical and creative skills to the college tech team, where I can grow through real-world project experience, collaboration, and innovation.</p>
+  </section>
+
+  <section>
+    <h2>Technical Skills (In Depth)</h2>
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>Python</span>
+      <span>C</span>
+      <span>C++</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Technical Skills (Basic Knowledge)</h2>
+    <div class="skills">
+      <span>Java</span>
+      <span>JavaScript</span>
+      <span>Node.js</span>
+      <span>MongoDB</span>
+      <span>Git & GitHub</span>
+      <span>Figma</span>
+      <span>Responsive Design</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Project Gallery</h2>
+    <div class="card-grid">
+      <div class="project-card">
+        <a href="https://shivam18573.github.io/IMDb-Clone/" target="_blank">
+          <img src="https://i.imgur.com/ZVbZ7Pt.png" alt="IMDb Clone Screenshot" />
+          <p>IMDb Clone</p>
+        </a>
+      </div>
+      <div class="project-card">
+        <a href="#" target="_blank">
+          <img src="https://via.placeholder.com/300x200.png?text=Stock+Market+Site" alt="Stock Market" />
+          <p>Stock Market Info Site</p>
+        </a>
+      </div>
+      <div class="project-card">
+        <a href="#" target="_blank">
+          <img src="https://via.placeholder.com/300x200.png?text=Form+Validation" alt="Form Validation" />
+          <p>Form Validation</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <ul>
+      <li><strong>Your Degree Name</strong> – Your College Name (Expected Year)</li>
+      <li>Relevant Courses: Web Development, Programming, Data Structures</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Achievements</h2>
+    <ul>
+      <li>Completed practical modules in HTML, CSS, JavaScript, Node.js, and MongoDB</li>
+      <li>Delivered group presentations using Canva and Google Slides</li>
+      <li>Selected for leadership role in class/group projects</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Strengths</h2>
+    <ul>
+      <li>Strong problem-solving mindset</li>
+      <li>Effective communicator and team player</li>
+      <li>Willingness to learn and adapt to new technologies</li>
+    </ul>
+  </section>
+
+</body>
+</html>
